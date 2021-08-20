@@ -14,7 +14,7 @@ namespace RagDollGame
             if(collision.gameObject.CompareTag("Player"))
             {
                 // Will give the player 2000 ponts then disapear.
-                ragdollScoring.currentScore += 2000;
+                ragdollScoring.currentScore -= 2000;
                 gameObject.SetActive(false);
             }
         }

@@ -42,21 +42,20 @@ public class RagdollScoring : MonoBehaviour
             currentScoreText.text = ("Score: " + currentScore.ToString("N0"));
             gameTimerText.text = ("Timer: " + gameTimer.ToString("N2"));
         }
+        if(currentScore <= 0)
+        {
+            currentScoreText.text = ("Score: 0");
+            gameRunning = false;
+        }
     }
 
     private void FixedUpdate()
     {
         if(gameRunning)
         {
-            currentScore -= ScoreRagdoll()*0.001f;
+            currentScore -= ScoreRagdoll()*0.01f;
         }
 
-        if(currentScore <= 0)
-        {
-            currentScoreText.text = ("Score: " + currentScore.ToString("N0"));
-            Time.timeScale = 0.8f;
-            gameRunning = false;
-        }
     }
 
     float ScoreRagdoll()

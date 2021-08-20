@@ -20,10 +20,10 @@ namespace RagDollGame
             {
                 EnableRagdoll();
             }
-            if (Input.GetKeyDown(KeyCode.Q))
-            {
-                DisableRagdoll();
-            }
+            // if (Input.GetKeyDown(KeyCode.Q))
+            // {
+            //     DisableRagdoll();
+            // }
         }
 
         void DisableRagdoll()
