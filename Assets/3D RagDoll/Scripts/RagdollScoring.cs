@@ -25,7 +25,10 @@ public class RagdollScoring : MonoBehaviour
     {
         quaternionTime = 0;
         gameTimer = 0;
+        currentScore = 10000f;
         gameRunning = false;
+        currentScoreText.text = ("Score: " + currentScore.ToString("N0"));
+        gameTimerText.text = ("Timer: " + gameTimer.ToString("N2"));
     }
 
     private void Update()
@@ -36,6 +39,8 @@ public class RagdollScoring : MonoBehaviour
             quaternionTime += Time.deltaTime;
             transform.localRotation = Quaternion.Slerp(transform.localRotation, Quaternion.Euler(0, 100, 0), quaternionTime);
             transform.localRotation = Quaternion.Slerp(transform.localRotation, Quaternion.Euler(0, 100, 0), Time.deltaTime);
+            currentScoreText.text = ("Score: " + currentScore.ToString("N0"));
+            gameTimerText.text = ("Timer: " + gameTimer.ToString("N2"));
         }
     }
 
@@ -43,7 +48,14 @@ public class RagdollScoring : MonoBehaviour
     {
         if(gameRunning)
         {
-            currentScore -= ScoreRagdoll();
+            currentScore -= ScoreRagdoll()*0.001f;
+        }
+
+        if(currentScore <= 0)
+        {
+            currentScoreText.text = ("Score: " + currentScore.ToString("N0"));
+            Time.timeScale = 0.8f;
+            gameRunning = false;
         }
     }
 

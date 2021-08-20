@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1011859539192593216}
   - component: {fileID: 4155366978060655015}
   - component: {fileID: 5054331063938667757}
-  - component: {fileID: 3796133235637897347}
   m_Layer: 0
   m_Name: Score Cube
   m_TagString: Untagged
@@ -113,18 +112,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
---- !u!138 &3796133235637897347
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2007941794992465752}
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_BreakForce: 200
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
