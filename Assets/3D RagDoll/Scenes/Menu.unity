@@ -273,7 +273,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Play
+  m_text: Play GreyBox 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -540,7 +540,7 @@ GameObject:
   - component: {fileID: 590624509}
   - component: {fileID: 590624508}
   m_Layer: 5
-  m_Name: GreyBox Button
+  m_Name: Play GreyBox 2 Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -612,7 +612,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 410056486}
         m_TargetAssemblyTypeName: UIElements, Assembly-CSharp
-        m_MethodName: PlayButton
+        m_MethodName: PlayGreyBox2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1000,7 +1000,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Greybox Level
+  m_text: Play GreyBox 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1345,7 +1345,7 @@ GameObject:
   - component: {fileID: 1843638014}
   - component: {fileID: 1843638013}
   m_Layer: 5
-  m_Name: Play Button
+  m_Name: Play GreyBox 1 Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1417,7 +1417,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 410056486}
         m_TargetAssemblyTypeName: UIElements, Assembly-CSharp
-        m_MethodName: PlayButton
+        m_MethodName: PlayGreyBox1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -45,13 +45,22 @@ public class UIElements : MonoBehaviour
     #endif
     }
     
-    // For the PlayButton run this function.
-    public void PlayButton()
+    // For the Play 1 Button run this function.
+    public void PlayGreyBox1()
     {
         // Unpauses time, just incase. Probs could be removed in this case.
         Time.timeScale = 1;
         // Loads the "Play" / Gameplay Scene.
         SceneManager.LoadScene(1);
+    }
+    
+    // For the Play 2 Button run this function.
+    public void PlayGreyBox2()
+    {
+        // Unpauses time, just incase. Probs could be removed in this case.
+        Time.timeScale = 1;
+        // Loads the "Play" / Gameplay Scene.
+        SceneManager.LoadScene(2);
     }
     
     

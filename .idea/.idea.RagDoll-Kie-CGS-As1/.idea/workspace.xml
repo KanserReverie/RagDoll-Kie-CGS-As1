@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d99afb24-79ac-45c1-9ea7-854039210a58" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RagDoll-Kie-CGS-As1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RagDoll-Kie-CGS-As1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D RagDoll/Prefab/Score Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D RagDoll/Prefab/Score Cube.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3D RagDoll/Scenes/Greybox 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D RagDoll/Scenes/Greybox 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3D RagDoll/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D RagDoll/Scenes/Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3D RagDoll/Scripts/RagdollScoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D RagDoll/Scripts/RagdollScoring.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D RagDoll/Scripts/Ragdoller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D RagDoll/Scripts/Ragdoller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3D RagDoll/Scripts/ScoreCube.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D RagDoll/Scripts/ScoreCube.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3D RagDoll/Scripts/UIElements.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D RagDoll/Scripts/UIElements.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds\3D-RagDoll.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Kieran\Desktop\Games Unity\3CGS-As1-RagDoll-Kie\RagDoll-Kie-CGS-As1\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -65,6 +75,8 @@
       <updated>1629467440547</updated>
       <workItem from="1629467449738" duration="5000" />
       <workItem from="1629479076661" duration="3210000" />
+      <workItem from="1629483440096" duration="74000" />
+      <workItem from="1629483749837" duration="1680000" />
     </task>
     <servers />
   </component>

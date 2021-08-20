@@ -53,7 +53,7 @@ public class RagdollScoring : MonoBehaviour
     {
         if(gameRunning)
         {
-            currentScore -= ScoreRagdoll()*0.01f;
+            currentScore -= ScoreRagdoll()*0.002f;
         }
 
     }

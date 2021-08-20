@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/3D RagDoll/Scenes/Menu.unity
     guid: cd31e741b5c5b3c4490240a83f025f3e
   - enabled: 1
-    path: Assets/3D RagDoll/Scenes/Gameplay.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/3D RagDoll/Scenes/Greybox 1.unity
+    guid: c71e5c090a79fd9408f8a37346ad8318
+  - enabled: 1
+    path: Assets/3D RagDoll/Scenes/Greybox 2.unity
+    guid: 30995f8f2a4fd754598ffa6aae9d0fef
   m_configObjects: {}
